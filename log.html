@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Connexion - SCE</title>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/style.css" />
+
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="logo">
+                    <a href="index.html"><h1>SCE</h1></a>
+                </div>
+                <div class="nav-link">
+                    <a href="index.html">Accueil</a>
+                    <a href="about.html">À propos</a>
+                    <a href="event.html">Événements</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="btns">
+                    <a href="log.html"><button class="btn-primary"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="24"
+                                height="24" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round"
+                                class="lucide lucide-circle-user-round-icon lucide-circle-user-round"><path
+                                    d="M18 20a6 6 0 0 0-12 0" /><circle cx="12"
+                                    cy="10" r="4" /><circle cx="12" cy="12"
+                                    r="10" /></svg>Se connecter</button></a>
+                </div>
+            </nav>
+        </header>
+        <section class="auth">
+            <div class="auth-container">
+                <div class="auth-tabs">
+                    <div class="auth-tab active"
+                        data-target="login">Connexion</div>
+                    <div class="auth-tab" data-target="signup">Créer un
+                        compte</div>
+                </div>
+
+                <form id="login" class="auth-form active">
+                    <div class="form-group">
+                        <label for="email">Adresse e-mail</label>
+                        <input type="email" id="email"
+                            placeholder="exemple@mail.com" required />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password">Mot de passe</label>
+                        <input type="password" id="password"
+                            placeholder="••••••••" required />
+                        <a href="#" class="forgot-password">Mot de passe oublié
+                            ?</a>
+                    </div>
+
+                    <button type="submit" class="btn-primary">Se
+                        connecter</button>
+
+                    <div class="auth-separator"><span>ou</span></div>
+
+                    <div class="auth-social">
+                        <button> <svg version="1.1" id="fi_300221"
+                                xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                x="0px" y="0px" viewBox="0 0 512 512"
+                                style="enable-background:new 0 0 512 512;"
+                                xml:space="preserve">
+                                <path style="fill:#167EE6;"
+                                    d="M492.668,211.489l-208.84-0.01c-9.222,0-16.697,7.474-16.697,16.696v66.715
+	c0,9.22,7.475,16.696,16.696,16.696h117.606c-12.878,33.421-36.914,61.41-67.58,79.194L384,477.589
+	c80.442-46.523,128-128.152,128-219.53c0-13.011-0.959-22.312-2.877-32.785C507.665,217.317,500.757,211.489,492.668,211.489z"></path>
+                                <path style="fill:#12B347;"
+                                    d="M256,411.826c-57.554,0-107.798-31.446-134.783-77.979l-86.806,50.034
+	C78.586,460.443,161.34,512,256,512c46.437,0,90.254-12.503,128-34.292v-0.119l-50.147-86.81
+	C310.915,404.083,284.371,411.826,256,411.826z"></path>
+                                <path style="fill:#0F993E;"
+                                    d="M384,477.708v-0.119l-50.147-86.81c-22.938,13.303-49.48,21.047-77.853,21.047V512
+	C302.437,512,346.256,499.497,384,477.708z"></path>
+                                <path style="fill:#FFD500;"
+                                    d="M100.174,256c0-28.369,7.742-54.91,21.043-77.847l-86.806-50.034C12.502,165.746,0,209.444,0,256
+	s12.502,90.254,34.411,127.881l86.806-50.034C107.916,310.91,100.174,284.369,100.174,256z"></path>
+                                <path style="fill:#FF4B26;"
+                                    d="M256,100.174c37.531,0,72.005,13.336,98.932,35.519c6.643,5.472,16.298,5.077,22.383-1.008
+	l47.27-47.27c6.904-6.904,6.412-18.205-0.963-24.603C378.507,23.673,319.807,0,256,0C161.34,0,78.586,51.557,34.411,128.119
+	l86.806,50.034C148.202,131.62,198.446,100.174,256,100.174z"></path>
+                                <path style="fill:#D93F21;"
+                                    d="M354.932,135.693c6.643,5.472,16.299,5.077,22.383-1.008l47.27-47.27
+	c6.903-6.904,6.411-18.205-0.963-24.603C378.507,23.672,319.807,0,256,0v100.174C293.53,100.174,328.005,113.51,354.932,135.693z"></path>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                            </svg>Se connecter avec Google</button>
+                        <button>
+                            <svg id="fi_5968764"
+                                enable-background="new 0 0 512 512" height="512"
+                                viewBox="0 0 512 512" width="512"
+                                xmlns="http://www.w3.org/2000/svg"><g><path
+                                        d="m512 256c0 127.78-93.62 233.69-216 252.89v-178.89h59.65l11.35-74h-71v-48.02c0-20.25 9.92-39.98 41.72-39.98h32.28v-63s-29.3-5-57.31-5c-58.47 0-96.69 35.44-96.69 99.6v56.4h-65v74h65v178.89c-122.38-19.2-216-125.11-216-252.89 0-141.38 114.62-256 256-256s256 114.62 256 256z"
+                                        fill="#1877f2"></path><path
+                                        d="m355.65 330 11.35-74h-71v-48.021c0-20.245 9.918-39.979 41.719-39.979h32.281v-63s-29.296-5-57.305-5c-58.476 0-96.695 35.44-96.695 99.6v56.4h-65v74h65v178.889c13.034 2.045 26.392 3.111 40 3.111s26.966-1.066 40-3.111v-178.889z"
+                                        fill="#fff"></path></g></svg>
+
+                            Se connecter avec Facebook</button>
+                    </div>
+                </form>
+
+                <form id="signup" class="auth-form">
+                    <div class="form-group">
+                        <label for="new-email">Adresse e-mail</label>
+                        <input type="email" id="new-email"
+                            placeholder="exemple@mail.com" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="new-password">Mot de passe</label>
+                        <input type="password" id="new-password"
+                            placeholder="••••••••" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="confirm-password">Confirmer le mot de
+                            passe</label>
+                        <input type="password" id="confirm-password"
+                            placeholder="••••••••" required />
+                    </div>
+
+                    <button type="submit" class="btn-primary">Créer le
+                        compte</button>
+
+                    <div class="auth-separator"><span>ou</span></div>
+
+                    <div class="auth-social">
+                        <button>
+                            <svg version="1.1" id="fi_300221"
+                                xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                x="0px" y="0px" viewBox="0 0 512 512"
+                                style="enable-background:new 0 0 512 512;"
+                                xml:space="preserve">
+                                <path style="fill:#167EE6;"
+                                    d="M492.668,211.489l-208.84-0.01c-9.222,0-16.697,7.474-16.697,16.696v66.715
+	c0,9.22,7.475,16.696,16.696,16.696h117.606c-12.878,33.421-36.914,61.41-67.58,79.194L384,477.589
+	c80.442-46.523,128-128.152,128-219.53c0-13.011-0.959-22.312-2.877-32.785C507.665,217.317,500.757,211.489,492.668,211.489z"></path>
+                                <path style="fill:#12B347;"
+                                    d="M256,411.826c-57.554,0-107.798-31.446-134.783-77.979l-86.806,50.034
+	C78.586,460.443,161.34,512,256,512c46.437,0,90.254-12.503,128-34.292v-0.119l-50.147-86.81
+	C310.915,404.083,284.371,411.826,256,411.826z"></path>
+                                <path style="fill:#0F993E;"
+                                    d="M384,477.708v-0.119l-50.147-86.81c-22.938,13.303-49.48,21.047-77.853,21.047V512
+	C302.437,512,346.256,499.497,384,477.708z"></path>
+                                <path style="fill:#FFD500;"
+                                    d="M100.174,256c0-28.369,7.742-54.91,21.043-77.847l-86.806-50.034C12.502,165.746,0,209.444,0,256
+	s12.502,90.254,34.411,127.881l86.806-50.034C107.916,310.91,100.174,284.369,100.174,256z"></path>
+                                <path style="fill:#FF4B26;"
+                                    d="M256,100.174c37.531,0,72.005,13.336,98.932,35.519c6.643,5.472,16.298,5.077,22.383-1.008
+	l47.27-47.27c6.904-6.904,6.412-18.205-0.963-24.603C378.507,23.673,319.807,0,256,0C161.34,0,78.586,51.557,34.411,128.119
+	l86.806,50.034C148.202,131.62,198.446,100.174,256,100.174z"></path>
+                                <path style="fill:#D93F21;"
+                                    d="M354.932,135.693c6.643,5.472,16.299,5.077,22.383-1.008l47.27-47.27
+	c6.903-6.904,6.411-18.205-0.963-24.603C378.507,23.672,319.807,0,256,0v100.174C293.53,100.174,328.005,113.51,354.932,135.693z"></path>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                            </svg>
+                            S'inscrire avec Google</button>
+                        <button>
+                            <svg id="fi_5968764"
+                                enable-background="new 0 0 512 512" height="512"
+                                viewBox="0 0 512 512" width="512"
+                                xmlns="http://www.w3.org/2000/svg"><g><path
+                                        d="m512 256c0 127.78-93.62 233.69-216 252.89v-178.89h59.65l11.35-74h-71v-48.02c0-20.25 9.92-39.98 41.72-39.98h32.28v-63s-29.3-5-57.31-5c-58.47 0-96.69 35.44-96.69 99.6v56.4h-65v74h65v178.89c-122.38-19.2-216-125.11-216-252.89 0-141.38 114.62-256 256-256s256 114.62 256 256z"
+                                        fill="#1877f2"></path><path
+                                        d="m355.65 330 11.35-74h-71v-48.021c0-20.245 9.918-39.979 41.719-39.979h32.281v-63s-29.296-5-57.305-5c-58.476 0-96.695 35.44-96.695 99.6v56.4h-65v74h65v178.889c13.034 2.045 26.392 3.111 40 3.111s26.966-1.066 40-3.111v-178.889z"
+                                        fill="#fff"></path></g></svg>
+                            S'inscrire avec Facebook</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <footer class="footer">
+            <p>Copyright © 2025 SCE | Tous droits réservés.</p>
+            <ul class="footer-links">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="event.html">Événements</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="socials">
+                <a href="#" aria-label="Facebook"><svg
+                        xmlns="http://www.w3.org/2000/svg" width="24"
+                        height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-facebook-icon lucide-facebook"><path
+                            d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" /></svg></a>
+                <a href="#" aria-label="Twitter"><svg
+                        xmlns="http://www.w3.org/2000/svg" width="24"
+                        height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-twitter-icon lucide-twitter"><path
+                            d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z" /></svg></a>
+                <a href="#" aria-label="Instagram"><svg
+                        xmlns="http://www.w3.org/2000/svg" width="24"
+                        height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-instagram-icon lucide-instagram"><rect
+                            width="20" height="20" x="2" y="2" rx="5"
+                            ry="5" /><path
+                            d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" /><line
+                            x1="17.5" x2="17.51" y1="6.5"
+                            y2="6.5" /></svg></a>
+            </div>
+        </footer>
+
+        <script>
+    const tabs = document.querySelectorAll('.auth-tab');
+    const forms = document.querySelectorAll('.auth-form');
+
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        tabs.forEach(t => t.classList.remove('active'));
+        tab.classList.add('active');
+
+        forms.forEach(form => form.classList.remove('active'));
+        document.getElementById(tab.dataset.target).classList.add('active');
+      });
+    });
+  </script>
+    </body>
+</html>
