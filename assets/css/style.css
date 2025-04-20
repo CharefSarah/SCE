@@ -404,7 +404,7 @@ nav a {
   border-radius: 1rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 850px) {
   .cta {
     flex-direction: column;
     text-align: center;
@@ -413,6 +413,16 @@ nav a {
   .cta-right {
     align-items: center;
     text-align: center;
+  }
+  .stats-grid {
+    display: grid;
+    grid-template-areas:
+      "big stat1 stat2"
+      "big stat3 stat4";
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.5rem;
+    max-width: 100vw;
+    margin-inline: auto;
   }
 }
 
@@ -533,7 +543,7 @@ nav a {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 850px) {
   body {
     font-size: 10px;
   }
@@ -646,7 +656,7 @@ nav a {
     "big stat3 stat4";
   grid-template-columns: 2fr 1fr 1fr;
   gap: 1.5rem;
-  max-width: 1000px;
+  max-width: 100vw;
   margin-inline: auto;
 }
 
@@ -667,6 +677,7 @@ nav a {
   color: var(--clr-white);
   justify-content: end;
   padding: 2rem;
+  text-wrap: balance;
 }
 
 .stat h3,
@@ -854,6 +865,9 @@ nav a {
 }
 
 @media (max-width: 768px) {
+  body {
+    font-size: 12px;
+  }
   .gallery-grid {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
@@ -863,6 +877,9 @@ nav a {
     grid-column: auto;
     grid-row: auto;
     height: auto;
+  }
+  .about-image {
+    margin: auto;
   }
 }
 .event-hero h2 {
@@ -942,6 +959,13 @@ nav a {
 
   .contact-form {
     width: 100%;
+  }
+  .stats-grid {
+    grid-template-areas:
+      "big big"
+      "stat1 stat2"
+      "stat3 stat4";
+    grid-template-columns: 1fr 1fr;
   }
 }
 
@@ -1112,6 +1136,9 @@ nav a {
 }
 
 @media (max-width: 500px) {
+  body {
+    font-size: 11px;
+  }
   .auth-container {
     margin: 4rem 1rem;
     padding: 1.5rem;
@@ -1119,6 +1146,17 @@ nav a {
   .auth-tabs {
     flex-direction: column;
     align-items: center;
+  }
+  .stats-grid {
+    grid-template-areas:
+      "big"
+      "big"
+      "stat1"
+      "stat2"
+      "stat3"
+      "stat4";
+    gap: 1.5rem;
+    grid-template-columns: 1fr;
   }
 }
 .auth-social button {
